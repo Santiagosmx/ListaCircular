@@ -1,8 +1,8 @@
 public class MiListaCircular implements ListInterface {
 
-    private Node cabeza;
-    private Node cola;
-    private int size;
+    Node cabeza;
+    Node cola;
+    int size;
 
     // Constructor por defecto
     public MiListaCircular() {
